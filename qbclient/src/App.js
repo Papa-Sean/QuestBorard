@@ -6,6 +6,8 @@ import { getPosts } from './actions/posts';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import swords from './images/crossedSwords.png';
+import Store from "./ComponentsChat/Store";
+import Dashboard from "./ComponentsChat/Dashboard";
 import useStyles from './styles';
  
 const App = () => {
@@ -33,6 +35,15 @@ const App = () => {
                         </Grid>
                     </Grid>
                 </Container>
+            </Grow>
+            <Grow in>
+                <Grid className={classes.mainContainer} container justify="space-between" alignItems="stretch" spacing={3}>
+                    <Grid item xs={12} sm={7}>
+                        <Store>
+                            <Dashboard />
+                        </Store>
+                    </Grid>
+                </Grid>
             </Grow>
         </Container>
     )
