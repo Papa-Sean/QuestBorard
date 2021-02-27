@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "cd qbclient && npm intatll && npm run build && cd .. && cd qbclient && npm install",
+    "heroku-prebuild": "cd qbclient && npm install && npm run build && cd .. && cd qbclient && npm install",
     "start": "cd qbclient && npm start && .. && cd qbserver && npm start && cd src && cd Server && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
