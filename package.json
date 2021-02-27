@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Papa-Sean/QuestBorard/issues"
   },
-  "homepage": "https://github.com/Papa-Sean/QuestBorard#readme"
+  "homepage": "https://github.com/Papa-Sean/QuestBorard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
