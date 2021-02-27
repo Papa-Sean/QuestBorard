@@ -11,6 +11,7 @@ import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import { CTX } from "./Store";
+import { grey } from "@material-ui/core/colors";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -191,7 +192,7 @@ export default function Dashboard() {
               setValue("");
             }}
             variant="contained"
-            color="grey"
+            color="primary"
           >
             Send
           </Button>
