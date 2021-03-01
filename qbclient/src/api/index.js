@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = process.env.MONGO_DB;
+const url = 'https://dnd-chat-v2.herokuapp.com/Posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost); 
