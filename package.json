@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "cd qbclient && npm install && npm run build && cd .. && cd qbserver && npm install",
-    "start": "cd qbserver && node index.js & cd qbclient/src/Server && node index.js & cd qbclient/src && npm start app.js && fg",
+    "start": "cd qbserver && node index.js & cd qbclient/src/Server && node index.js && fg",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
